@@ -37,14 +37,14 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST') {
 		$bodymsg = '';
 		
 		if ($honeypot == '' && !(empty($emailTO))) {
-			### If you want use SMTP 
-			// $mail->isSMTP();
-			// $mail->SMTPDebug = 0;
-			// $mail->Host = 'smtp_host';
-			// $mail->Port = 587;
-			// $mail->SMTPAuth = true;
-			// $mail->Username = 'smtp_username';
-			// $mail->Password = 'smtp_password';
+			 If you want use SMTP 
+			 $mail->isSMTP();
+			 $mail->SMTPDebug = 0;
+			 $mail->Host = 'gator3174.hostgator.com';
+			 $mail->Port = 465;
+			 $mail->SMTPAuth = true;
+			 $mail->Username = 'contactform@creatormoon.com';
+			 $mail->Password = 'cb7i!rDcYw2^';
 
 			### Regular email configure
 			$mail->IsHTML(true);
