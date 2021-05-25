@@ -41,7 +41,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST') {
 			 $mail->isSMTP();
 			 $mail->SMTPDebug = 0;
 			 $mail->Host = 'gator3174.hostgator.com';
-			 $mail->Port = 465;
+			 $mail->Port = 25;
 			 $mail->SMTPAuth = true;
 			 $mail->Username = 'contactform@creatormoon.com';
 			 $mail->Password = 'cb7i!rDcYw2^';
