@@ -68,7 +68,7 @@ NioApp = (function (NioApp, $, window) {
                         "timeOut": "2000",
                         "extendedTimeOut": "1000"
                     };
-                    toastr.info('<em class="fas fa-shopping-cart toast-message-icon"></em>Buy link will be published soon!');
+                    toastr.info('<em class="fas fa-shopping-cart toast-message-icon"></em>Pre Sale Coming Soon!');
                     e.preventDefault();
                 });
 			});
